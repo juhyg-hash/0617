@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3a64ba76-22cb-4613-90bb-a28d0a0b4999" name="변경" comment="second commit">
-      <change beforePath="$PROJECT_DIR$/src/Outer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Outer.java" afterDir="false" />
-    </list>
+    <list default="true" id="3a64ba76-22cb-4613-90bb-a28d0a0b4999" name="변경" comment="third commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,6 +40,7 @@
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "onboarding.tips.debug.path": "C:/Users/gusrb/IdeaProjects/0616/src/Main.java",
+    "애플리케이션.Main.executor": "Run",
     "애플리케이션.Outer.executor": "Run"
   }
 }]]></component>
@@ -78,12 +77,21 @@
       <option name="project" value="LOCAL" />
       <updated>1750038057983</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="second commit">
+      <option name="closed" value="true" />
+      <created>1750039286357</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1750039286357</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
     <MESSAGE value="second commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="second commit" />
+    <MESSAGE value="third commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="third commit" />
   </component>
 </project>
