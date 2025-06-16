@@ -1,27 +1,31 @@
-class Car {
-    String brand;
-    Engine engine;
-
-    public Car(String brand) {
-        this.brand = brand;
-        this.engine = new Engine();
-    }
-
-    class Engine {
-        public void start() {
-            System.out.println("The engine of " + brand + " is starting.");
+class Outer{
+    String outm = "오이시";
+    public class Iner {
+        void showMessage() {
+            System.out.println(outm);
         }
     }
 
-    public void startEngine() {
-        engine.start();
-    }
 }
-
 public class Main {
-    public static void main(String[] args) {
-        Car car = new Car("빠른자동차");
+    String outerMessage = "Hello from Outer";
 
-        car.startEngine();
+    class Inner {
+        void showMessage() {
+            System.out.println(outerMessage);
+        }
+    }
+
+    public static void main(String[] args) {
+        Main main = new Main();
+
+        Main.Inner inner = main.new Inner();
+
+        inner.showMessage();
+
+        Outer outer = new Outer();
+
+        Outer.Iner inn = outer.new Iner();
+
     }
 }
